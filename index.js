@@ -79,7 +79,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 app.get('/search/:searchTerm',findUsers);
 app.get('/',(req,res)=>{
-  
+  res.send("Welcome to be backEnd Server");
 })
 
 /* MONGOOSE SETUP */
